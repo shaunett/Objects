@@ -1,0 +1,21 @@
+var dog ={
+"legs": 4,
+"color": "white",
+"name": "Capmer",
+"doSomething": ["everything"]
+};
+
+function changeMe(){
+//alert("hello");
+//change champer name 
+dog.name = "Happy Camper";
+document.getElementById("demo").innerHTML = dog.name;
+}
+
+
+function original(){
+document.getElementById("demo").innerHTML = dog.name;
+}
+
+//add new property
+function addNewProperty
